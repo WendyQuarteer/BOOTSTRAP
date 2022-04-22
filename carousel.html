@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="carousel.css">
 </head>
 <body>
-<div class="container" style="width:60%; height:25%">
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+<div class="container">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light" style="height:40px">
     <a href="#" class="navbar-brand" mb-0 h1>
       <img class="d-inline-block" align="top"
               src="pictures/carousel.png" width="30" height="30"/>
@@ -50,7 +50,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 100%; height: 40%">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="justify-content-center">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -59,13 +59,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="pictures/aligator.webp" class="d-block w-100" alt="alligator joke">
+      <img src="pictures/aligator.webp" class="d-block w-100" alt="alligator joke" style="height: 500px">
     </div>
     <div class="carousel-item">
-      <img src="pictures/fish.webp" class="d-block w-100" alt="fish joke">
+      <img src="pictures/fish.webp" class="d-block w-100" alt="fish joke" style="height: 500px">
     </div>
     <div class="carousel-item">
-      <img src="pictures/muffin.webp" class="d-block w-100" alt="muffin joke">
+      <img src="pictures/muffin.webp" class="d-block w-100" alt="muffin joke" style="height: 500px">
     </div>
   </div>
   </div>
@@ -81,40 +81,39 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-
+  <p>&nbsp;</p>
   <div class="card-deck">
-     <div class="card text-center text-white bg-transparent" style="width: 200px;">
+     <div class="card text-center text-white bg-transparent" style="width: 200px; height= 80px">
         <img class="rounded-circle mx-auto" src="pictures/fish.jpg" alt="Fish">
         <div class="card-body">
           <h5 class="card-title">FISH</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">A limbless cold-blooded vertebrate animal with gills and fins living wholly in water.</p>
         </div>
+       <div class="card-footer">
+         <a href="https://www.youtube.com/watch?v=cC9r0jHF-Fw" class="btn btn-primary">Fish</a>
+       </div>
      </div>
-    <div class="card text-center text-white bg-transparent" style="width: 200px;">
+    <div class="card text-center text-white bg-transparent" style="width: 200px; height= 80px">
         <img class="rounded-circle mx-auto" src="pictures/muffin.jpg" alt="Muffin">
         <div class="card-body">
           <h5 class="card-title">MUFFIN</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">A small domed spongy cake made with eggs and baking powder.</p>
         </div>
+      <div class="card-footer">
+        <a href="https://www.youtube.com/watch?v=MbheYh3A_8Y" class="btn btn-primary">Muffin</a>
+      </div>
     </div>
-    <div class="card text-center text-white bg-transparent" style="width: 200px;">
+    <div class="card text-center text-white bg-transparent" style="width: 200px; height= 80px">
         <img class="rounded-circle mx-auto" src="pictures/alligator.jpg" alt="Alligator">
         <div class="card-body">
           <h5 class="card-title">ALLIGATOR</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">A large semiaquatic reptile similar to a crocodile but with a broader and shorter head, native to the Americas and China.</p>
         </div>
+      <div class="card-footer">
+        <a href="https://www.youtube.com/watch?v=X5Im4mMFK4A" class="btn btn-primary">Alligator</a>
+      </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
+</div>
 </body>
 </html>
