@@ -5,3 +5,8 @@ body{
     width:150px;
     height:150px;
 }
+.card-img{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
