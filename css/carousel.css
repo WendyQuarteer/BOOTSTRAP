@@ -1,11 +1,13 @@
-body{
+body {
     background-color: black;
 }
-.rounded-circle{
-    width:150px;
-    height:150px;
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
 }
-.card-img{
+
+.card-img {
     display: block;
     margin-top: auto;
     margin-bottom: auto;
